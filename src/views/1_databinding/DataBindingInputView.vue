@@ -4,8 +4,8 @@
     <button @click="changeData">변경</button>
     <button @click="myFunction">클릭!</button>
     <br />
-    <input type="number" v-model="num1" /> +
-    <input type="number" v-model="num2" /> =
+    <input type="text" v-model.number="num1" /> +
+    <input type="text" v-model.number="num2" /> =
     <span>{{ num1 + num2 }}</span>
   </div>
 </template>
