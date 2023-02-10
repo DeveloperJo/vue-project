@@ -42,6 +42,14 @@ const routes = [
       import(
         /* webpackChunkName: 'databinding', webpackPrefetch: true */ '../views/1_databinding/DataBindingInputView.vue'
       )
+  },
+  {
+    path: '/databinding/select',
+    name: 'DataBindingSelectView',
+    component: () =>
+      import(
+        /* webpackChunkName: 'databinding', webpackPrefetch: true */ '../views/1_databinding/DataBindingSelectView.vue'
+      )
   }
 ]
 
