@@ -5,7 +5,6 @@
 	"tabWidth": 2,
 	"trailingComma": "none",
 	"printWidth": 80,
-	"parser": "babel",
 	"bracketSpacing": true,
 	"arrowParens": "avoid"
 }
